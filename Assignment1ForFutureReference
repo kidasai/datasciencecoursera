@@ -1,0 +1,15 @@
+11. names(data)
+12. data[1:2,]
+13. nrow(data)
+14. tail(data, 2)
+15. data$Ozone[47]
+16.sum(is.na(data$Ozone))
+17. mean(data$Ozone, na.rm = TRUE)
+18 .
+> sub1 <-subset(data, Ozone > 31 & Temp >90)
+> mean(sub1$Solar.R)
+
+19. > sub1 <-subset(data, Month == 6)
+> mean(sub1$Temp)
+20.sub1 <-subset(data, Month == 5)
+max(sub1$Ozone, na.rm = TRUE)
